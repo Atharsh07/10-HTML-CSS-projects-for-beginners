@@ -1,21 +1,14 @@
-# HTML/CSS Projects for Beginners
+# HTML CSS 10 PRACTICE PROJECT
 
-Welcome to the HTML/CSS Projects for Beginners repository! In this repo, you'll find 10 projects designed for beginners to practice HTML and CSS.
+### Project that we are going to build in this complete practice course
 
-## Projects
-
-This repository contains 10 projects, each focusing on fundamental HTML and CSS concepts.
-
-## Getting Started
-
-Each project is located in its respective folder. Clone the repository, explore the folders, and start coding!
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-Thank you to all contributors and the open-source community for their support.
-
-Happy coding!
+- Project 1 - Tribute Website
+- Project 2 - Job Application
+- Project 3 - Parallax Wesbite
+- Project 4 - Landing Page
+- Project 5 - Restaurant Website
+- Project 6 - Music Website
+- Project 7 - Youtube Clone
+- Project 8 - Javascript Documentation
+- Project 9 - Blog Wesbite
+- Project 10 - Portfolio Website
