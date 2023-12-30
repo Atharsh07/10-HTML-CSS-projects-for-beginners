@@ -47,6 +47,7 @@ header {
 section {
   scroll-margin-top: 50px;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
