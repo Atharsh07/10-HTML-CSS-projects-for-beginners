@@ -71,7 +71,6 @@ nav li:hover {
   font-size: 2rem;
   font-weight: 700;
 }
-
 #hero {
   background: var(--dark-color);
   padding: 4rem 0;
@@ -83,38 +82,35 @@ nav li:hover {
   justify-content: space-around;
   align-items: center;
 }
-.hero_px{
-  image-resolution: 50px;
-}
 .hero_content {
   display: grid;
   place-items: center;
 }
-
 #hero h1 {
-  font-size: 3rem;
-  font-weight: bold;
+    font-size: 3rem;
+    font-weight: bold;
 }
-
+  
 .hi_text {
-  font-size: 6rem;
-  font-weight: bold;
-  color: var(--secondary-color);
+    font-size: 6rem;
+    font-weight: bold;
+    color: var(--secondary-color);
 }
 .name_text {
-  font-size: 5rem;
+    font-size: 5rem;
 }
-
+  
 #hero h2 {
   font-size: 4rem;
   font-weight: bold;
-
+  
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 0.15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */ /* Adjust as needed */
   animation: typing 3s steps(25, end), blink-caret 0.75s step-end infinite;
 }
+
 @keyframes typing {
   from {
     width: 0;
@@ -248,7 +244,7 @@ footer {
 
 /* Media Query */
 
-@media (max-width: 786px) {
+@media (max-width: 100px) {
   html {
     font-size: 40%;
   }
@@ -258,7 +254,7 @@ footer {
   .hero_image {
     display: grid;
     place-items: center;
-    width: 20px;
+    width: px;
   }
   #contact .container {
     height: 70vh;
