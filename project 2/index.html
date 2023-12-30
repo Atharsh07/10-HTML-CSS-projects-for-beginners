@@ -1,66 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Application</title>
-    <link rel="stylesheet" href="index.css"> </link>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-           <div class="apply_box">
-            <h1>Job Application
-            <span class="title">(Web)</span></h1>
-            <form action="">
-                <div class="form_container">
-                    <div class="form_control">
-                        <label for="First_Name">First Name</label>
-                        <input id="First_Name" name="First Name" placeholder="Enter First Name"./>
-                    </div>
-                    <div class="form_control">
-                        <label for="Last_Name">Last Name</label>
-                        <input id="Last_Name" name="Last Name" placeholder="Enter Last Name"./>
-                    </div>
-                    <div class="form_control">
-                        <label for="Email_">Email</label>
-                        <input type="email" id="Email_" name="Email" placeholder="Enter Email"./>
-                    </div>
-                    <div class="form_control">
-                        <label for="Job_role">Job Role</label>
-                        <select id="Job_role" name="Job_role">
-                            <option value="">Select Job Role</option>
-                            <option value="Front_end">Frontend Developer</option>
-                            <option value="Back_end">Backend Developer</option>
-                            <option value="Full_stack">FullStack Developer</option>
-                            <option value="Ui_ux">UI/UX Developer</option>
-                        </select>
-                    </div>
-                    <div class="textarea_control">
-                        <label for="address">Address</label>
-                        <textarea id="address" name="address" rows="4" cols="50" placeholder="Enter the address"></textarea>
-                     </div>
-                     <div class="form_control">
-                        <label for="City_">City</label>
-                        <input id="City_" name="City" placeholder="Enter the City"./>
-                    </div>
-                    <div class="form_control">
-                        <label for="Pindcode_">Pincode</label>
-                        <input type="number"   id="Pindcode_" name="Pincode" placeholder="Enter the Pincode"./>
-                    </div>
-                    <div class="form_control">
-                        <label for="Date_">Date</label>
-                        <input value="29-12-2023"  type="date"   id="Date_" name="date"./>
-                    </div>
-                    <div class="form_control">
-                        <label for="Upload_">Upload your CV</label>
-                        <input  type="file"   id="Upload_" name="Upload"./>
-                    </div>
-                </div>
-                <div class="button_container">
-                    <button type="submit">Apply Now</button>
-                </div>
-            </form>
-           </div>
+      <div class="apply_box">
+        <h1>
+          Job Application
+          <span class="title_small">(Web)</span>
+        </h1>
+        <form action="">
+          <div class="form_container">
+            <div class="form_control">
+              <label for="first_name"> First Name </label>
+              <input
+                id="first_name"
+                name="first_name"
+                placeholder="Enter First Name..."
+              />
+            </div>
+            <div class="form_control">
+              <label for="last_name"> Last Name </label>
+              <input
+                id="last_name"
+                name="last_name"
+                placeholder="Enter Last Name..."
+              />
+            </div>
+            <div class="form_control">
+              <label for="email"> Email </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Email..."
+              />
+            </div>
+            <div class="form_control">
+              <label for="job_role"> Job Role </label>
+              <select id="job_role" name="job_role">
+                <option value="">Select Job Role</option>
+                <option value="frontend">Frontend Developer</option>
+                <option value="backend">Backend Developer</option>
+                <option value="full_stack">Full Stack Developer</option>
+                <option value="ui_ux">UI UX Designer</option>
+              </select>
+            </div>
+            <div class="textarea_control">
+              <label for="address"> Address </label>
+              <textarea
+                id="address"
+                name="address"
+                row="4"
+                cols="50"
+                placeholder="Enter Address"
+              ></textarea>
+            </div>
+            <div class="form_control">
+              <label for="city"> City </label>
+              <input id="city" name="city" placeholder="Enter City Name..." />
+            </div>
+            <div class="form_control">
+              <label for="pincode"> Pincode </label>
+              <input
+                type="number"
+                id="pincode"
+                name="pincode"
+                placeholder="Enter Pincode Name..."
+              />
+            </div>
+            <div class="form_control">
+              <label for="date"> Date </label>
+              <input value="2022-01-10" type="date" id="date" name="date" />
+            </div>
+            <div class="form_control">
+              <label for="upload"> Upload Your CV </label>
+              <input type="file" id="upload" name="upload" />
+            </div>
+          </div>
+          <div class="button_container">
+            <button type="submit">Apply Now</button>
+          </div>
+        </form>
+      </div>
     </div>
-</body>
+  </body>
 </html>
