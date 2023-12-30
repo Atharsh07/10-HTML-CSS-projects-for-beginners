@@ -76,12 +76,15 @@ nav li:hover {
   background: var(--dark-color);
   padding: 4rem 0;
   border-bottom: 4px solid var(--lighting-color);
-  max-height: 100vh;
+  max-height: 150vh;
 }
 #hero .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.hero_px{
+  image-resolution: 50px;
 }
 .hero_content {
   display: grid;
@@ -110,7 +113,7 @@ nav li:hover {
   border-right: 0.15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */ /* Adjust as needed */
-  animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+  animation: typing 3s steps(25, end), blink-caret 0.75s step-end infinite;
 }
 @keyframes typing {
   from {
@@ -255,6 +258,7 @@ footer {
   .hero_image {
     display: grid;
     place-items: center;
+    width: 20px;
   }
   #contact .container {
     height: 70vh;
