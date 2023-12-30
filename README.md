@@ -12,9 +12,3 @@
 - Project 8 - Javascript Documentation
 - Project 9 - Blog Wesbite
 - Project 10 - Portfolio Website
-
-#### All Image Assets and Icons will Provided in Video Description
-
-Visit Website - [Do some coding](https://www.dosomecoding.com)
-
-Visit Channel - [Do some coding](https://www.youtube.com/c/dosomecoding)
